@@ -1,0 +1,40 @@
+@font-face{
+    font-family:'Montserrat';
+    font-display: swap;
+    font-weight:500 700;
+    src:url('https://fonts.google.com/specimen/Montserrat');
+
+}
+@font-face{
+    font-family:'Fraunces';
+    font-display: swap;
+    font-weight:700;
+    src:url('https://fonts.google.com/specimen/Fraunces');
+
+}
+:root{
+    --clr-price:hsl(158, 36%, 37%);
+    --clr-background:hsl(30, 38%, 92%);
+    --clr-title:hsl(212, 21%, 14%);
+    --clr-text:hsl(228, 12%, 48%);
+    --clr-body:hsl(0, 0%, 100%);
+    --font-family-text: 'Montserrat';
+    --font-family-title: 'Frances';
+    --fw-normal:500;
+    --fw-heavy:700;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+* {
+    margin:0;
+    font:inherit;
+}
+img,
+svg{
+    display:block;
+    max-width:100%;
+}
+                                                                        
